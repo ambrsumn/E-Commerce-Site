@@ -1,0 +1,134 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 100vw;
+    height: 60px;
+    /* padding: 27px 0; */
+    box-sizing: content-box;
+    position: sticky;
+    top: 0px;
+}
+
+footer
+{
+    background-color: rgb(22, 82, 138);
+    height: 4vh;
+    width: 100vw;
+    color: white;
+}
+
+nav ul li
+{
+    display: inline;
+    padding: 0 17px;
+}
+
+a
+{
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: calc(6px + 1vw);
+    /* margin: 0 25px; */
+}
+
+a:hover
+{
+    color: red;
+    font-weight: bolder;
+    
+}
+
+#searchbar
+{
+    letter-spacing: 0.519em;
+    font-style: italic;
+    /* margin: 6px 13px 10px; */
+    font-size: calc(6px + 1vw);
+    margin-right: 4px;
+}
+
+#searchbutt
+{
+    font-size: 14px;
+letter-spacing: 0.047em;
+font-style: italic;
+color: brown;
+/* margin: 6px 13px 10px; */
+font-size: calc(6px + 1vw);
+}
+
+.flexcentre
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    width: 100vw;
+    height: auto;
+    background-color: white;
+}
+
+.slider
+{
+    margin: 12px auto;
+    width: 80vw;
+    /* border: 5px solid red; */
+    /* image-resolution: auto; */
+    overflow: hidden;
+    /* overflow: auto; */
+    
+}
+.offers
+{
+    /* background-color: red; */ 
+     width: 90vw;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+
+    /* display: flex;
+    justify-content: space-evenly; */
+
+}
+
+.offerholder
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.offeritems
+{
+    display: inline-flex;
+    width: 12vw;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    margin-right: 30px;
+}
+
+/* .offerimg
+{
+    margin-right: 15px;
+} */
+
+.sm
+{
+    margin: 13px 0;
+    text-align: center;
+}
+
